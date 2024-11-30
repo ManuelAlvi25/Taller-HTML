@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Contenido actual del dashboard -->
+
+  <!-- AppBar en la parte inferior -->
+  <nav class="appbar">
+    <button class="tab-button active">
+      <img src="img/folder (1).png" alt="Projects Icon" class="tab-icon">
+      <span>Projects</span>
+    </button>
+    <button class="tab-button">
+      <img src="img/sticky-notes.png" alt="Notes Icon" class="tab-icon">
+      <span>Notes</span>
+    </button>
+    <button class="tab-button">
+      <img src="img/goal.png" alt="Goals Icon" class="tab-icon">
+      <span>Goals</span>
+    </button>
+  </nav>
+</body>
+
+
+
+
+
+<body>
+  <aside class="sidebar">
+    <h2>Projects</h2>
+    <ol id="project-list">
+      <li></li>
+      <li></li>
+    </ol>
+  
+    <!-- Botones de la barra lateral -->
+    <div class="sidebar-buttons">
+      <button id="new-draft-btn">
+        <img src="img/image.png" class="icon" alt="New Draft Icon"> New Draft
+      </button>
+      <button id="new-project-btn">
+        <img src="img/folder.png" class="icon" alt="New Project Icon"> New Project
+      </button>
+      <button id="settings-btn">
+        <img src="img/setting.png" class="icon" alt="Settings Icon"> Settings
+      </button>
+      <button id="theme-btn">
+        <img src="img/theme.png" class="icon" alt="Theme Icon"> Theme
+      </button>
+    </div>
+  </aside>
+  
+  <div class="main">
+    <header id="main-header">
+      <h1>Side Hustle</h1>
+    </header>
+
+    <div class="board">
+      <div class="column" id="ideas-column">
+        <h3><span class="dot blue"></span>Musica</h3>
+        <div class="note">
+          <p><strong>KEVIN KAARL:</strong> Escuchar el nuevo album de kevin kaarl en spotify</p>
+          <img src="img/kevin kaarl spoti.jpg" alt="Moodboard" class="kevin">
+        </div>
+        <button>Add Note</button>
+      </div>
+
+      <div class="board">
+        <div class="column" id="ideas-column">
+          <h3><span class="dot blue"></span>Lista del album</h3>
+          <div class="note">
+            <p><strong>Ed Maverick:</strong> Hacer una lista de las canciones que me gustaron de su nuevo album</p>
+            <img src="img/ed maverick.jpg" alt="Moodboard">
+          </div>
+          <button>Add Note</button>
+        </div>
+
+      <div class="column" id="done-column">
+        <h3><span class="dot green"></span>Done</h3>
+        <div class="note">
+          <p><strong>Information Architecture:</strong> Organize content structure for usability.</p>
+        </div>
+        <div class="note">
+          <p><strong>Code Convention:</strong> Establish consistent coding standards for the team.</p>
+        </div>
+        <div class="note">
+          <p><strong>Wireframes:</strong> Finalize low-fidelity designs for the main features.</p>
+        </div>
+        <button>Add Note</button>
+      </div>
+
+      <div class="column" id="goals-column">
+        <h3><span class="dot black"></span>Goals</h3>
+        <div class="note">
+          <p><strong>MVP:</strong> Complete the minimum viable product for initial release.</p>
+        </div>
+        <div class="note">
+          <p><strong>Launch Plans:</strong> Develop a marketing and rollout strategy for the product.</p>
+        </div>
+        <button>Add Note</button>
+      </div>
+    </div>
+  </div>
+
+  
